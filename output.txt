@@ -1,0 +1,904 @@
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_openssl_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h: In member function ‘emp::Num_relic& emp::Num_relic::operator=(emp::Num_relic&)’:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:277:12: warning: reference to local variable ‘c’ returned [-Wreturn-local-addr]
+  277 |     return c;
+      |            ^
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:275:15: note: declared here
+  275 |     Num_relic c(a.field);
+      |               ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h: In member function ‘emp::Num_relic& emp::Num_relic::operator=(emp::Num_relic&)’:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:277:12: warning: reference to local variable ‘c’ returned [-Wreturn-local-addr]
+  277 |     return c;
+      |            ^
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:275:15: note: declared here
+  275 |     Num_relic c(a.field);
+      |               ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/ecc.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h: In member function ‘emp::Num_relic& emp::Num_relic::operator=(emp::Num_relic&)’:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:277:12: warning: reference to local variable ‘c’ returned [-Wreturn-local-addr]
+  277 |     return c;
+      |            ^
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:275:15: note: declared here
+  275 |     Num_relic c(a.field);
+      |               ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h: In member function ‘emp::Num_relic& emp::Num_relic::operator=(emp::Num_relic&)’:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:277:12: warning: reference to local variable ‘c’ returned [-Wreturn-local-addr]
+  277 |     return c;
+      |            ^
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:275:15: note: declared here
+  275 |     Num_relic c(a.field);
+      |               ^
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:21,
+                 from /data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:4,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/pfe_openssl_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h: In function ‘bool zk_EncEP_p(emp::Group*, emp::Point, emp::Point*, emp::Point*, emp::Point*, std::vector<int>, emp::BigInt*, int, int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:27: warning: variable ‘one’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                           ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:31: warning: variable ‘two’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                               ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:35: warning: variable ‘three’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                   ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:41: warning: variable ‘four’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                         ^~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:55: warning: variable ‘seven’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                       ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:61: warning: variable ‘eight’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                             ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:67: warning: variable ‘nine’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                   ^~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:72: warning: unused variable ‘ten’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                        ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:76: warning: unused variable ‘eleven’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                            ^~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:83: warning: unused variable ‘twive’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                                   ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:89: warning: unused variable ‘thirteen’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                                         ^~~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:21,
+                 from /data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:4,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h: In function ‘bool zk_EncEP_p(emp::Group*, emp::Point, emp::Point*, emp::Point*, emp::Point*, std::vector<int>, emp::BigInt*, int, int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:27: warning: variable ‘one’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                           ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:31: warning: variable ‘two’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                               ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:35: warning: variable ‘three’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                   ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:41: warning: variable ‘four’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                         ^~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:55: warning: variable ‘seven’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                       ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:61: warning: variable ‘eight’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                             ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:67: warning: variable ‘nine’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                   ^~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:72: warning: unused variable ‘ten’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                        ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:76: warning: unused variable ‘eleven’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                            ^~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:83: warning: unused variable ‘twive’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                                   ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:89: warning: unused variable ‘thirteen’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                                         ^~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h: In function ‘bool zk_EncEP_v(emp::Group*, emp::Point, emp::Point*, emp::Point*, emp::Point*, int, int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:626:13: warning: unused variable ‘e_p_result’ [-Wunused-variable]
+  626 |     BigInt *e_p_result = new BigInt[l+l%2];
+      |             ^~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h: In function ‘bool zk_EncEP_v(emp::Group*, emp::Point, emp::Point*, emp::Point*, emp::Point*, int, int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:626:13: warning: unused variable ‘e_p_result’ [-Wunused-variable]
+  626 |     BigInt *e_p_result = new BigInt[l+l%2];
+      |             ^~~~~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_eva.h:7,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:25,
+                 from /data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:4,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/pfe_openssl_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h: In function ‘void emp::point_and_permute(unsigned char*, unsigned char*, unsigned char*)’:
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h:59:15: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   59 |  for(int i=0;i<point.size();i++){
+      |              ~^~~~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h:60:18: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   60 |   for(int j=i+1;j<point.size();j++){
+      |                 ~^~~~~~~~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_eva.h:7,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:25,
+                 from /data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:4,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h: In function ‘void emp::point_and_permute(unsigned char*, unsigned char*, unsigned char*)’:
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h:59:15: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   59 |  for(int i=0;i<point.size();i++){
+      |              ~^~~~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h:60:18: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   60 |   for(int j=i+1;j<point.size();j++){
+      |                 ~^~~~~~~~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/pfe_openssl_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h: In member function ‘void emp::PFE_circuits::topological_sorting()’:
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:65:17: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   65 |    for(int j=0;j<oconnecti[gates[3*x+2]].size();j++){
+      |                ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:71:7: warning: unused variable ‘index’ [-Wunused-variable]
+   71 |   int index=0;
+      |       ^~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h: In member function ‘void emp::PFE_circuits::topological_sorting()’:
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:65:17: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   65 |    for(int j=0;j<oconnecti[gates[3*x+2]].size();j++){
+      |                ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:71:7: warning: unused variable ‘index’ [-Wunused-variable]
+   71 |   int index=0;
+      |       ^~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:21,
+                 from /data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:4,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/ecc.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h: In function ‘bool zk_EncEP_p(emp::Group*, emp::Point, emp::Point*, emp::Point*, emp::Point*, std::vector<int>, emp::BigInt*, int, int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:27: warning: variable ‘one’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                           ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:31: warning: variable ‘two’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                               ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:35: warning: variable ‘three’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                   ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:41: warning: variable ‘four’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                         ^~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:55: warning: variable ‘seven’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                       ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:61: warning: variable ‘eight’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                             ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:67: warning: variable ‘nine’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                   ^~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:72: warning: unused variable ‘ten’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                        ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:76: warning: unused variable ‘eleven’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                            ^~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:83: warning: unused variable ‘twive’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                                   ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:89: warning: unused variable ‘thirteen’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                                         ^~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h: In function ‘bool zk_EncEP_v(emp::Group*, emp::Point, emp::Point*, emp::Point*, emp::Point*, int, int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:626:13: warning: unused variable ‘e_p_result’ [-Wunused-variable]
+  626 |     BigInt *e_p_result = new BigInt[l+l%2];
+      |             ^~~~~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_eva.h:7,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:25,
+                 from /data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:4,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/ecc.cpp:1:
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h: In function ‘void emp::point_and_permute(unsigned char*, unsigned char*, unsigned char*)’:
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h:59:15: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   59 |  for(int i=0;i<point.size();i++){
+      |              ~^~~~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h:60:18: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   60 |   for(int j=i+1;j<point.size();j++){
+      |                 ~^~~~~~~~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:21,
+                 from /data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:4,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h: In function ‘bool zk_EncEP_p(emp::Group*, emp::Point, emp::Point*, emp::Point*, emp::Point*, std::vector<int>, emp::BigInt*, int, int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:27: warning: variable ‘one’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                           ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:31: warning: variable ‘two’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                               ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:35: warning: variable ‘three’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                   ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:41: warning: variable ‘four’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                         ^~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:55: warning: variable ‘seven’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                       ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:61: warning: variable ‘eight’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                             ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:67: warning: variable ‘nine’ set but not used [-Wunused-but-set-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                   ^~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:72: warning: unused variable ‘ten’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                        ^~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:76: warning: unused variable ‘eleven’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                            ^~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:83: warning: unused variable ‘twive’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                                   ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:39:89: warning: unused variable ‘thirteen’ [-Wunused-variable]
+   39 |     clock_t start,mid,end,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twive,thirteen;
+      |                                                                                         ^~~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/ecc.cpp:1:
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h: In member function ‘void emp::PFE_circuits::topological_sorting()’:
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:65:17: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   65 |    for(int j=0;j<oconnecti[gates[3*x+2]].size();j++){
+      |                ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:71:7: warning: unused variable ‘index’ [-Wunused-variable]
+   71 |   int index=0;
+      |       ^~~~~
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h: In function ‘bool zk_EncEP_v(emp::Group*, emp::Point, emp::Point*, emp::Point*, emp::Point*, int, int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/pfe/utils/zk_ep.h:626:13: warning: unused variable ‘e_p_result’ [-Wunused-variable]
+  626 |     BigInt *e_p_result = new BigInt[l+l%2];
+      |             ^~~~~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_eva.h:7,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:25,
+                 from /data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:4,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:1:
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h: In function ‘void emp::point_and_permute(unsigned char*, unsigned char*, unsigned char*)’:
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h:59:15: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   59 |  for(int i=0;i<point.size();i++){
+      |              ~^~~~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/gc/GarbledCircuits_gen.h:60:18: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   60 |   for(int j=i+1;j<point.size();j++){
+      |                 ~^~~~~~~~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:6,
+                 from /data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:1:
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h: In member function ‘void emp::PFE_circuits::topological_sorting()’:
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:65:17: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   65 |    for(int j=0;j<oconnecti[gates[3*x+2]].size();j++){
+      |                ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/circuits/circuit_file.h:71:7: warning: unused variable ‘index’ [-Wunused-variable]
+   71 |   int index=0;
+      |       ^~~~~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp: In function ‘void test(int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:51:17: error: no matching function for call to ‘emp::Group_relic::Group_relic()’
+   51 |     Group_relic G;
+      |                 ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:18:2: note: candidate: ‘emp::Group_relic::Group_relic(uint8_t*)’
+   18 |  Group_relic(uint8_t* seed){
+      |  ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:18:2: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:16:7: note: candidate: ‘constexpr emp::Group_relic::Group_relic(const emp::Group_relic&)’
+   16 | class Group_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:16:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:66:36: error: conversion from ‘emp::Num_relic*’ to non-scalar type ‘emp::Num_relic’ requested
+   66 |         Num_relic s = G.get_rnd_num();
+      |                       ~~~~~~~~~~~~~^~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:67:48: error: conversion from ‘emp::Point_relic*’ to non-scalar type ‘emp::Point_relic’ requested
+   67 |         Point_relic generator = G.get_generator();
+      |                                 ~~~~~~~~~~~~~~~^~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:71:43: error: no matching function for call to ‘emp::Num_relic::Num_relic()’
+   71 |         Num_relic *rand_t= new Num_relic[N];
+      |                                           ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*, bn_st*)’
+  216 | Num_relic::Num_relic(Group_relic* fld, bn_t src){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*)’
+  207 | Num_relic::Num_relic(Group_relic* fld){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note: candidate: ‘constexpr emp::Num_relic::Num_relic(const emp::Num_relic&)’
+   49 | class Num_relic{
+      |       ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:73:37: error: no match for ‘operator=’ (operand types are ‘emp::Num_relic’ and ‘emp::Num_relic*’)
+   73 |             rand_t[i]=G.get_rnd_num();
+      |                                     ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:274:12: note: candidate: ‘emp::Num_relic& emp::Num_relic::operator=(emp::Num_relic&)’
+  274 | Num_relic& Num_relic::operator=( Num_relic& a){
+      |            ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:274:45: note:   no known conversion for argument 1 from ‘emp::Num_relic*’ to ‘emp::Num_relic&’
+  274 | Num_relic& Num_relic::operator=( Num_relic& a){
+      |                                  ~~~~~~~~~~~^
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:75:20: error: no match for ‘operator!’ (operand type is ‘emp::Num_relic’)
+   75 |                 if(!rand_t[j]==rand_t[i]){
+      |                    ^~~~~~~~~~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:75:20: note: candidate: ‘operator!(bool)’ <built-in>
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:75:20: note:   no known conversion for argument 1 from ‘emp::Num_relic’ to ‘bool’
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:75:30: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+   75 |                 if(!rand_t[j]==rand_t[i]){
+      |                              ^~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:82:33: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+   82 |         Point_relic generators[M];
+      |                                 ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:98:25: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+   98 |         Point_relic ca[N];
+      |                         ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:99:25: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+   99 |         Point_relic cb[N];
+      |                         ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:100:27: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  100 |         Point_relic phia[N];
+      |                           ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_openssl_semihonest.cpp: In function ‘void test(int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/test/pfe_openssl_semihonest.cpp:97:13: warning: unused variable ‘rv’ [-Wunused-variable]
+   97 |         int rv = EC_POINT_oct2point(G.ec_group, popo, (unsigned char*)mess, 33, NULL);
+      |             ^~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:101:27: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  101 |         Point_relic phib[N];
+      |                           ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:102:24: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  102 |         Point_relic d[N];
+      |                        ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:104:39: error: no matching function for call to ‘emp::Num_relic::Num_relic()’
+  104 |         Num_relic *r = new Num_relic[N];
+      |                                       ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*, bn_st*)’
+  216 | Num_relic::Num_relic(Group_relic* fld, bn_t src){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*)’
+  207 | Num_relic::Num_relic(Group_relic* fld){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note: candidate: ‘constexpr emp::Num_relic::Num_relic(const emp::Num_relic&)’
+   49 | class Num_relic{
+      |       ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:106:34: error: no match for ‘operator=’ (operand types are ‘emp::Num_relic’ and ‘emp::Num_relic*’)
+  106 |             r[i] = G.get_rnd_num();
+      |                                  ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:274:12: note: candidate: ‘emp::Num_relic& emp::Num_relic::operator=(emp::Num_relic&)’
+  274 | Num_relic& Num_relic::operator=( Num_relic& a){
+      |            ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:274:45: note:   no known conversion for argument 1 from ‘emp::Num_relic*’ to ‘emp::Num_relic&’
+  274 | Num_relic& Num_relic::operator=( Num_relic& a){
+      |                                  ~~~~~~~~~~~^
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:125:24: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  125 |         Point_relic p[N];
+      |                        ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:171:24: error: no matching function for call to ‘emp::Point_relic::Point_relic(emp::Group_relic&)’
+  171 |         Point_relic h(G);
+      |                        ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 1 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:39: note:   no known conversion for argument 1 from ‘emp::Group_relic’ to ‘emp::Group_relic*’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      |                          ~~~~~~~~~~~~~^~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   no known conversion for argument 1 from ‘emp::Group_relic’ to ‘const emp::Point_relic&’
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:172:22: error: no matching function for call to ‘emp::NetIO::recv_pt(emp::Point_relic&)’
+  172 |         io->recv_pt(h);
+      |                      ^
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/io/io_channel.h:41:7: note: candidate: ‘void emp::IOChannel<T>::recv_pt(emp::Group*, emp::Point*, int) [with T = emp::NetIO]’
+   41 |  void recv_pt(Group * g, Point *A, int num_pts = 1) {
+      |       ^~~~~~~
+/data/work/liuyy/emp-tool/pfe/io/io_channel.h:41:7: note:   candidate expects 3 arguments, 1 provided
+/data/work/liuyy/emp-tool/pfe/io/io_channel.h:62:7: note: candidate: ‘void emp::IOChannel<T>::recv_pt(emp::Point_relic*, int) [with T = emp::NetIO]’
+   62 |  void recv_pt(Point_relic *A, int num_pts = 1){
+      |       ^~~~~~~
+/data/work/liuyy/emp-tool/pfe/io/io_channel.h:62:28: note:   no known conversion for argument 1 from ‘emp::Point_relic’ to ‘emp::Point_relic*’
+   62 |  void recv_pt(Point_relic *A, int num_pts = 1){
+      |               ~~~~~~~~~~~~~^
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:174:33: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  174 |         Point_relic generators[M];
+      |                                 ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:178:45: error: no match for ‘operator=’ (operand types are ‘emp::Point_relic’ and ‘emp::Point_relic*’)
+  178 |             generators[i] = G.get_rnd_point();
+      |                                             ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘emp::Point_relic& emp::Point_relic::operator=(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   no known conversion for argument 1 from ‘emp::Point_relic*’ to ‘const emp::Point_relic&’
+/data/work/liuyy/emp-tool/test/pfe_openssl_semihonest.cpp:49:33: warning: variable ‘pvc_start’ set but not used [-Wunused-but-set-variable]
+   49 |     clock_t start,end,mid,setup,pvc_start,pvc_end;
+      |                                 ^~~~~~~~~
+/data/work/liuyy/emp-tool/test/pfe_openssl_semihonest.cpp:49:43: warning: unused variable ‘pvc_end’ [-Wunused-variable]
+   49 |     clock_t start,end,mid,setup,pvc_start,pvc_end;
+      |                                           ^~~~~~~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:180:21: error: ‘rand_power’ was not declared in this scope
+  180 |                 if(!rand_power[j]==rand_power[i]){
+      |                     ^~~~~~~~~~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:180:34: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  180 |                 if(!rand_power[j]==rand_power[i]){
+      |                                  ^~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:198:25: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  198 |         Point_relic ca[N];
+      |                         ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:199:25: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  199 |         Point_relic cb[N];
+      |                         ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:200:27: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  200 |         Point_relic phia[N];
+      |                           ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:201:27: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  201 |         Point_relic phib[N];
+      |                           ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:202:24: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  202 |         Point_relic p[N];
+      |                        ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:203:24: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  203 |         Point_relic d[N];
+      |                        ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:234:23: error: no matching function for call to ‘emp::Num_relic::Num_relic()’
+  234 |             Num_relic alpha_a, alpha_b;
+      |                       ^~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*, bn_st*)’
+  216 | Num_relic::Num_relic(Group_relic* fld, bn_t src){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*)’
+  207 | Num_relic::Num_relic(Group_relic* fld){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note: candidate: ‘constexpr emp::Num_relic::Num_relic(const emp::Num_relic&)’
+   49 | class Num_relic{
+      |       ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:234:32: error: no matching function for call to ‘emp::Num_relic::Num_relic()’
+  234 |             Num_relic alpha_a, alpha_b;
+      |                                ^~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*, bn_st*)’
+  216 | Num_relic::Num_relic(Group_relic* fld, bn_t src){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*)’
+  207 | Num_relic::Num_relic(Group_relic* fld){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note: candidate: ‘constexpr emp::Num_relic::Num_relic(const emp::Num_relic&)’
+   49 | class Num_relic{
+      |       ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:237:36: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  237 |             Point_relic a_point[2*M],b_point[2*N];
+      |                                    ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:237:49: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  237 |             Point_relic a_point[2*M],b_point[2*N];
+      |                                                 ^
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:239:15: error: ‘class emp::Group_relic’ has no member named ‘get_rand_bn’
+  239 |             G.get_rand_bn(alpha_a);
+      |               ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:240:15: error: ‘class emp::Group_relic’ has no member named ‘get_rand_bn’
+  240 |             G.get_rand_bn(alpha_b);
+      |               ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:254:27: error: no matching function for call to ‘emp::Num_relic::Num_relic()’
+  254 |                 Num_relic bn_w_a, bn_w_b;
+      |                           ^~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*, bn_st*)’
+  216 | Num_relic::Num_relic(Group_relic* fld, bn_t src){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*)’
+  207 | Num_relic::Num_relic(Group_relic* fld){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note: candidate: ‘constexpr emp::Num_relic::Num_relic(const emp::Num_relic&)’
+   49 | class Num_relic{
+      |       ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:254:35: error: no matching function for call to ‘emp::Num_relic::Num_relic()’
+  254 |                 Num_relic bn_w_a, bn_w_b;
+      |                                   ^~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*, bn_st*)’
+  216 | Num_relic::Num_relic(Group_relic* fld, bn_t src){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:216:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note: candidate: ‘emp::Num_relic::Num_relic(emp::Group_relic*)’
+  207 | Num_relic::Num_relic(Group_relic* fld){
+      | ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:207:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note: candidate: ‘constexpr emp::Num_relic::Num_relic(const emp::Num_relic&)’
+   49 | class Num_relic{
+      |       ^~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:49:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:257:29: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  257 |                 Point_relic p_w_a, p_w_b;
+      |                             ^~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:257:36: error: no matching function for call to ‘emp::Point_relic::Point_relic()’
+  257 |                 Point_relic p_w_a, p_w_b;
+      |                                    ^~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*, eb_st*)’
+  314 | Point_relic::Point_relic(Group_relic* fld, eb_t src){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:314:1: note:   candidate expects 2 arguments, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note: candidate: ‘emp::Point_relic::Point_relic(emp::Group_relic*)’
+  310 | Point_relic::Point_relic(Group_relic* fld){
+      | ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:310:1: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note: candidate: ‘constexpr emp::Point_relic::Point_relic(const emp::Point_relic&)’
+   80 | class Point_relic{
+      |       ^~~~~~~~~~~
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:80:7: note:   candidate expects 1 argument, 0 provided
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:258:25: error: ‘generator’ was not declared in this scope; did you mean ‘generators’?
+  258 |                 p_w_a = generator ^ bn_w_a;
+      |                         ^~~~~~~~~
+      |                         generators
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:238:20: warning: unused variable ‘oct_len’ [-Wunused-variable]
+  238 |             size_t oct_len = 33;
+      |                    ^~~~~~~
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:49:43: warning: unused variable ‘pvc_end’ [-Wunused-variable]
+   49 |     clock_t start,end,mid,setup,pvc_start,pvc_end;
+      |                                           ^~~~~~~
+In file included from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/io/io_channel.h: In instantiation of ‘void emp::IOChannel<T>::send_pt(emp::Point_relic*, int) [with T = emp::NetIO]’:
+/data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:69:23:   required from here
+/data/work/liuyy/emp-tool/pfe/io/io_channel.h:54:22: error: ‘emp::Group_relic* emp::Point_relic::field’ is private within this context
+   54 |    size_t len = A[i].field->point_byte_size();
+In file included from /data/work/liuyy/emp-tool/pfe/io/io_channel.h:6,
+                 from /data/work/liuyy/emp-tool/pfe/pfe.h:2,
+                 from /data/work/liuyy/emp-tool/test/pfe_relic_semihonest.cpp:1:
+/data/work/liuyy/emp-tool/pfe/utils/group_r.h:101:15: note: declared private here
+  101 |  Group_relic* field;
+      |               ^~~~~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp: In function ‘void test(int, emp::NetIO*)’:
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:293:17: warning: unused variable ‘res’ [-Wunused-variable]
+  293 |             int res = EVP_VerifyFinal(mctx, sign, 256, sigkey);
+      |                 ^~~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:149:13: warning: unused variable ‘rv’ [-Wunused-variable]
+  149 |         int rv = EC_POINT_oct2point(G.ec_group, popo, (unsigned char*)mess, 33, NULL);
+      |             ^~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:185:14: warning: unused variable ‘zk_bool’ [-Wunused-variable]
+  185 |         bool zk_bool =zk_EncEP_p(&G, h, generators, ca, cb, cf.extended_permutation, r, M, N, io);
+      |              ^~~~~~~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:261:17: warning: unused variable ‘pr’ [-Wunused-variable]
+  261 |         BigInt *pr = new BigInt[num_pvc];
+      |                 ^~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:262:17: warning: unused variable ‘ps’ [-Wunused-variable]
+  262 |         BigInt *ps = new BigInt[num_pvc];
+      |                 ^~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:280:13: warning: unused variable ‘sn’ [-Wunused-variable]
+  280 |         int sn = 0;
+      |             ^~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:281:13: warning: unused variable ‘days’ [-Wunused-variable]
+  281 |         int days = 1;
+      |             ^~~~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:651:17: warning: variable ‘res’ set but not used [-Wunused-but-set-variable]
+  651 |             int res = EVP_SignFinal(mctx, sig, &size, sigprikey);
+      |                 ^~~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:464:14: warning: unused variable ‘zk_bool’ [-Wunused-variable]
+  464 |         bool zk_bool =zk_EncEP_v(&G, h, generators, ca, cb, M, N, io);
+      |              ^~~~~~~
+/data/work/liuyy/emp-tool/test/pfe_openssl_malicious.cpp:505:20: warning: unused variable ‘sig’ [-Wunused-variable]
+  505 |         ECDSA_SIG *sig[num_pvc];
+      |                    ^~~
+make[2]: *** [test/CMakeFiles/test_pfe_relic_semihonest.dir/build.make:76: test/CMakeFiles/test_pfe_relic_semihonest.dir/pfe_relic_semihonest.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:279: test/CMakeFiles/test_pfe_relic_semihonest.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/data/work/liuyy/emp-tool/test/pfe_openssl_semihonest.cpp:132:50: warning: ‘mid’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  132 |         cout<<"initial phase time = "<<double(mid-setup)/CLOCKS_PER_SEC<<"s"<<endl;
+      |                                               ~~~^~~~~~
+make: *** [Makefile:146: all] Error 2
